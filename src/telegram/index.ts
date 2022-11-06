@@ -182,7 +182,7 @@ export class Main {
         userId: msg.chat.id,
         card: answer.text,
         isVirtual: false,
-        number: "", // TODO Почему при чтении такое поле есть а записи не вижу добавил но могут быть ошибки
+        number: "",
       });
 
       return await this.sendBalanceMessage(msg.chat.id);
